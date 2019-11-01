@@ -14,7 +14,7 @@ https://github.com/nabeel3133/combining3Dmorphablemodels.git
 ```
 
 ### 2. Downloading the dataset
-[LYHM](https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
+- [LYHM](https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
 
 ### 3. Running the code
 
