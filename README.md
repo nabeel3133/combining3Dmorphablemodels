@@ -47,15 +47,3 @@ year = {2019}
   organization={IEEE}
 }
 ```
-
-- [A 3D Face Model for Pose and Illumination Invariant Face Recognition](https://gravis.dmi.unibas.ch/publications/2009/BFModel09.pdf):
-```bibtex
-@InProceedings{amberg2007optimal,
-  title={Optimal Step Nonrigid ICP Algorithms for Surface Registration},
-  author={Amberg, Brian and Romdhani, Sami and Vetter, Thomas},
-  booktitle={Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE Conference on},
-  pages={1--8},
-  year={2007},
-  organization={IEEE}
-}
-```
