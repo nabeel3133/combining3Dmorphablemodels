@@ -13,7 +13,7 @@ This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combin
 https://github.com/nabeel3133/combining3Dmorphablemodels.git
 ```
 
-### 2. Downloading the dataset
+### 2. Downloading the models
 - [Liverpool York Head Model: LYHM](https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
 - [Base Face Model 2009: BFM](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details)
 
