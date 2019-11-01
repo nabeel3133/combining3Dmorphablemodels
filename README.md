@@ -10,7 +10,7 @@ This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combin
 ## Usage
 ### 1. Cloning the repository
 ```
-https://github.com/nabeel3133/combining3Dmorphablemodels.git
+git clone https://github.com/nabeel3133/combining3Dmorphablemodels.git
 ```
 
 ### 2. Downloading the models
