@@ -1,6 +1,6 @@
 # Combining 3D Morphable Models: A Large scale Face-and-Head Model
 This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combining 3D Morphable Models: A Large scale Face-and-Head Model. It is implemented only till the Regression Matrix Calculation part.
-<p align="center"><img width="100%" src="jpg/main.jpg" /></p>
+<p align="center"><img width="100%" src="images/main.jpg" /></p>
 
 ## Paper
 [Combining 3D Morphable Models: A Large scale Face-and-Head Model](https://arxiv.org/abs/1903.03785)
