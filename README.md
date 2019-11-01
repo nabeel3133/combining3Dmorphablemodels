@@ -36,10 +36,10 @@ year = {2019}
 }
 ```
 
-- [Optimal step nonrigid icp algorithms for surface registration](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
+- [Optimal Step Nonrigid ICP Algorithms for Surface Registration](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
 ```bibtex
 @InProceedings{amberg2007optimal,
-  title={Optimal step nonrigid icp algorithms for surface registration},
+  title={Optimal Step Nonrigid ICP Algorithms for Surface Registration},
   author={Amberg, Brian and Romdhani, Sami and Vetter, Thomas},
   booktitle={Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE Conference on},
   pages={1--8},
