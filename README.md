@@ -26,8 +26,8 @@ https://github.com/nabeel3133/combining3Dmorphablemodels.git
 ## Citation
 If this work is useful for your research, please cite the [paper](https://arxiv.org/abs/1903.03785):
 ```
-@InProceedings{StarGAN2018,
-author = {Stylianos Ploumpis, Haoyang Wang, Nick Pears, William A. P. Smith, Stefanos Zafeiriou},
+@InProceedings{ploumpis2019combining,
+author = {Stylianos Ploumpis and Haoyang Wang and Nick Pears and William A. P. Smith and Stefanos Zafeiriou},
 title = {Combining 3D Morphable Models: A Large Scale Face-And-Head Model},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 month = {June},
