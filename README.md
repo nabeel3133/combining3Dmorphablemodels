@@ -24,7 +24,7 @@ git clone https://github.com/nabeel3133/combining3Dmorphablemodels.git
 
 
 ## Citation
-If this work is useful for your research, please cite [Combining 3D Morphable Models: A Large Scale Face-And-Head Model](https://arxiv.org/abs/1903.03785) and [Optimal step nonrigid icp algorithms for surface registration](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
+If this work is useful for your research or if you use this implementation in your academic projects, please cite [Combining 3D Morphable Models: A Large Scale Face-And-Head Model](https://arxiv.org/abs/1903.03785) and [Optimal step nonrigid icp algorithms for surface registration](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
 ```bibtex
 @InProceedings{ploumpis2019combining,
 author = {Stylianos Ploumpis and Haoyang Wang and Nick Pears and William A. P. Smith and Stefanos Zafeiriou},
