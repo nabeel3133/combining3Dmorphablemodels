@@ -12,7 +12,7 @@ This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combin
 
 
 ## Citation
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1711.09020):
+If this work is useful for your research, please cite the [paper](https://arxiv.org/abs/1903.03785):
 ```
 @InProceedings{StarGAN2018,
 author = {Stylianos Ploumpis, Haoyang Wang, Nick Pears, William A. P. Smith, Stefanos Zafeiriou},
