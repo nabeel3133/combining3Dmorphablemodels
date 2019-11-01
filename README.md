@@ -13,6 +13,15 @@ This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combin
 https://github.com/nabeel3133/combining3Dmorphablemodels.git
 ```
 
+### 2. Downloading the dataset
+[LYHM] (https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
+
+### 3. Running the code
+
+
+### 4. Testing
+
+
 ## Citation
 If this work is useful for your research, please cite the [paper](https://arxiv.org/abs/1903.03785):
 ```
