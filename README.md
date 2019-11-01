@@ -24,8 +24,8 @@ git clone https://github.com/nabeel3133/combining3Dmorphablemodels.git
 
 
 ## Citation
-If this work is useful for your research, please cite [paper](https://arxiv.org/abs/1903.03785) and [paper](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
-```
+If this work is useful for your research, please cite [Combining 3D Morphable Models: A Large Scale Face-And-Head Model](https://arxiv.org/abs/1903.03785) and [Optimal step nonrigid icp algorithms for surface registration](https://gravis.dmi.unibas.ch/publications/2007/CVPR07_Amberg.pdf):
+```bibtex
 @InProceedings{ploumpis2019combining,
 author = {Stylianos Ploumpis and Haoyang Wang and Nick Pears and William A. P. Smith and Stefanos Zafeiriou},
 title = {Combining 3D Morphable Models: A Large Scale Face-And-Head Model},
@@ -36,7 +36,7 @@ year = {2019}
 ```
 
 ```bibtex
-@inproceedings{amberg2007optimal,
+@InProceedings{amberg2007optimal,
   title={Optimal step nonrigid icp algorithms for surface registration},
   author={Amberg, Brian and Romdhani, Sami and Vetter, Thomas},
   booktitle={Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE Conference on},
