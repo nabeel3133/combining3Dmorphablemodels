@@ -21,3 +21,5 @@ end
 %% CONSTRUCTING REGRESSION MATRIX
 Whf = Ch * transpose(Cf)* inv(Cf*transpose(Cf));
 %% --------------------------------------------------
+
+save('Regression_Matrix','Whf')
