@@ -1,7 +1,6 @@
 %% LOADING MAT FILES AND VARIABLES
-%load('LYHM_global.mat')
 load('LYHM_male.mat')
-load('BFM.mat')
+load('01_MorphableModel.mat')
 
 total_heads = 700;
 
@@ -12,13 +11,6 @@ head_mean=transpose(shp.mu);
 head_U=shp.eigVec;
 head_lambda=shp.eigVal(1:100,1);
 %% --------------------------------------------------
-
-% gaussian =normrnd(0,3, 1, 1);
-% Sd = 0;
-% gaussian_values = [-3 -2 -1 1 2 3];
-% model_min = 1;
-% model_max = 100;
-% model_rand = int16(model_min+rand(1,n)*(model_max-model_min));
 
 
 %% GENERATING RANDOM HEADS USING FIRST EIGENVECTORS
@@ -32,10 +24,6 @@ new_heads = zeros(length(head_U),total_heads);
 model_numbers = zeros(total_heads,1);
 j = 1;
 for i=1:total_heads
-%     Sd = gaussian_values(i);
-%     ph(i,1) = sqrt(head_lambda(1,1))*Sd;
-%     new_heads(:,i)=  head_mean + (head_U(:,1)* ph(i,1)) ;
-
     model_rand = randi([1,100]);
     model_numbers(j,1) = model_rand;
     Sd = gaussian_min+rand(1,n)*(gaussian_max-gaussian_min);
