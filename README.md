@@ -16,12 +16,11 @@ git clone https://github.com/nabeel3133/combining3Dmorphablemodels.git
 
 ### 2. Downloading the models
 - [LYHM: Liverpool York Head Model](https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
-  - After you have acquired LYHM, extract the lyhmPublic.zip and go to "lyhmPublic/lyhmModels/", copy "LYHM_male.mat" and place it in the "Regression Matrix Calculation" folder.
+  - After you have acquired LYHM, extract the lyhmPublic.zip and go to "lyhmPublic/lyhmModels/", copy "LYHM_male.mat" and put it in the "Regression Matrix Calculation" folder.
 - [BFM09: Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details)
-  - After you have acquired BFM, extract the BaselFaceModel.tgz and go to "PublicMM1" folder, copy "01_MorphableModel.mat" and place it in the "Regression Matrix Calculation" folder.
+  - After you have acquired BFM, extract the BaselFaceModel.tgz and go to "PublicMM1" folder, copy "01_MorphableModel.mat" and put it in the "Regression Matrix Calculation" folder.
   
 ### 3. Running the code
-
 
 ### 4. Testing
 
