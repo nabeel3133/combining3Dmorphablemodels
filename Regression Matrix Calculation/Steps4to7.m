@@ -18,8 +18,8 @@ end
 %% --------------------------------------------------
 
 
-%% CONSTRUCTING REGRESSION MATRIX
+%% CONSTRUCTING REGRESSION MATRIX AND SAVING IT IN MAT FILE
 Whf = Ch * transpose(Cf)* inv(Cf*transpose(Cf));
+save('Regression_Matrix','Whf')
 %% --------------------------------------------------
 
-save('Regression_Matrix','Whf')
