@@ -1,10 +1,10 @@
 %% PREDICTING HEAD
-load('LYHM_male.mat')
-load('Regression_Matrix.mat')
+load('./Regression Matrix Calculation/LYHM_male.mat')
+load('./Regression Matrix Calculation/Regression_Matrix.mat')
 load('Face.mat')
 head_mean = transpose(shp.mu);
 head_U = shp.eigVec;
-load('01_MorphableModel.mat')
+load('./Regression Matrix Calculation/01_MorphableModel.mat')
 face_mean = shapeMU;
 face_U = shapePC;
 input_face = transpose(Face_verts);
