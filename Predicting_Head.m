@@ -1,6 +1,6 @@
 %% PREDICTING HEAD
 load('LYHM_male.mat')
-load('Whf700Male.mat')
+load('Whf.mat')
 load('Face.mat')
 head_mean = transpose(shp.mu);
 head_U = shp.eigVec;
