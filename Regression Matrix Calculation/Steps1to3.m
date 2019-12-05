@@ -2,7 +2,10 @@
 load('LYHM_male.mat')
 load('01_MorphableModel.mat')
 
-total_heads = 700;
+% Specify the number of heads and corresponding face shape parameters to be
+% generated for learning the regression matrix. The more the better!
+total_heads = 1;
+% ------------------------------------------------------------------------
 
 face_mean = shapeMU;
 face_U = shapePC;
@@ -22,9 +25,11 @@ n=1;
 ph = zeros(total_heads,1);
 new_heads = zeros(length(head_U),total_heads);
 model_numbers = zeros(total_heads,1);
+total_models = size(head_U,2);
+
 j = 1;
 for i=1:total_heads
-    model_rand = randi([1,100]);
+    model_rand = randi([1,total_models]);
     model_numbers(j,1) = model_rand;
     Sd = gaussian_min+rand(1,n)*(gaussian_max-gaussian_min);
     ph(i,1) = sqrt(head_lambda(model_rand,1))*Sd;
@@ -57,6 +62,8 @@ end
 
 
 %% APPLY NRICP
+% Open the file "nricp_run.m" located in "Non Rigid Iterative Closest Point
+% (NICP)/nricp-master/demos/" and run it.
 %% --------------------------------------------------
 
 
