@@ -73,7 +73,7 @@ face_model_dict = loadmat('../Regression Matrix Calculation/01_MorphableModel.ma
 face_U = face_model_dict['shapePC']
 face_mean = face_model_dict['shapeMU']
 
-regression_matrix_dict = loadmat('../Regression Matrix Calculation/Regression_Matrix_Test.mat')
+regression_matrix_dict = loadmat('../Regression Matrix Calculation/Regression_Matrix.mat')
 Whf = regression_matrix_dict['Whf']
 
 pred_head_tensor = predictHead(head_mean, head_U, Whf, input_face_tensor, face_U, face_mean)   
