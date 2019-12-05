@@ -57,7 +57,7 @@ end
 
 %% CONSTRUCTING REGRESSION MATRIX AND SAVING IT IN MAT FILE
 Whf = Ch * transpose(Cf)* inv(Cf*transpose(Cf));     % Equation (5) of the paper
-save('../../../Regression Matrix Calculation/Regression_Matrix_Test','Whf')
+save('../../../Regression Matrix Calculation/Regression_Matrix','Whf')
 %% --------------------------------------------------
 
 
