@@ -1,7 +1,6 @@
 # Combining 3D Morphable Models: A Large scale Face-and-Head Model
 This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combining 3D Morphable Models: A Large scale Face-and-Head Model. It is implemented only till the Regression Matrix Calculation part.
 
-Note that it is not production ready. If you encounter any problems, please file an issue on GitHub.
 <p align="center"><img width="50%" height="5%" src="images/main.jpg" /></p>
 
 ## Paper
@@ -21,21 +20,22 @@ git clone https://github.com/nabeel3133/combining3Dmorphablemodels.git
 
 ### 2. Downloading the models
 - [LYHM: Liverpool York Head Model](https://www-users.cs.york.ac.uk/~nep/research/LYHM/)
-  - After you have acquired LYHM, extract the lyhmPublic.zip and go to "lyhmPublic/lyhmModels/", copy "LYHM_male.mat" and put it in the "Regression Matrix Calculation" folder.
+  - After you have acquired LYHM, extract the `lyhmPublic.zip` and go to `lyhmPublic/lyhmModels/`, copy `LYHM_male.mat` and put it in the `Regression Matrix Calculation` folder.
 - [BFM09: Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-1-0&id=details)
-  - After you have acquired BFM, extract the BaselFaceModel.tgz and go to "PublicMM1" folder, copy "01_MorphableModel.mat" and put it in the "Regression Matrix Calculation" folder.
+  - After you have acquired BFM, extract the BaselFaceModel.tgz and go to "PublicMM1" folder, copy `01_MorphableModel.mat` and put it in the `Regression Matrix Calculation` folder.
   
 ### 3. Running the code
 In order to run the code, launch MATLAB and follow the steps given below:
-1. Open the file "Steps1to3.m" located in "combining3Dmorphablemodels/Regression Matrix Calculcation" and run it. (Keep in mind that there is a variable named "total_heads" on line #7, you can change it to as much head shape parameters you want the regression matrix to learn from). 
-2. After it is done executing, open the file "nricp_run.m" located in "combining3Dmorphablemodels/Non Rigid Iterative Closest Point (NICP)/nricp-master/demos" and run it. It will save "Regression_Matrix.mat" in the directory "combining3Dmorphablemodels/Regression Matrix Calculcation".
+1. Open the file `Steps1to3.m` located in `combining3Dmorphablemodels/Regression Matrix Calculcation` and run it.
+(Keep in mind that there is a variable named `total_heads` on line #7, you can change it to as much head shape parameters you want the regression matrix to learn from). 
+2. After it is done executing, open the file `nricp_run.m` located in `combining3Dmorphablemodels/Non Rigid Iterative Closest Point (NICP)/nricp-master/demos` and run it. It will save `Regression_Matrix.mat` in the directory `combining3Dmorphablemodels/Regression Matrix Calculcation`.
 
 ### 4. Getting a Predicted Head
-In order to get a predicted head of a BFM face, you need to have the .obj file of the BFM face for which you want to predict the head. Make sure to have your .obj file named as "Input_Face.obj". Locate to the directory "combining3Dmorphablemodels/Prediction" and run the following command:
+In order to get a predicted head of a BFM face, you need to have the .obj file of the BFM face for which you want to predict the head. Make sure to have your .obj file named as `Input_Face.obj`. Locate to the directory "combining3Dmorphablemodels/Prediction" and run the following command:
 ```
 python Head_Prediction.py
 ```
-This will output a file named "Output_Head.obj" located in the same directory.
+This will output a file named `Output_Head.obj` located in the same directory.
 
 ## Citation
 If this work is useful for your research or if you use this implementation in your academic projects, please cite the following papers:
