@@ -31,11 +31,16 @@ In order to run the code, launch MATLAB and follow the steps given below:
 2. After it is done executing, open the file `nricp_run.m` located in `combining3Dmorphablemodels/Non Rigid Iterative Closest Point (NICP)/nricp-master/demos` and run it. It will save `Regression_Matrix.mat` in the directory `combining3Dmorphablemodels/Regression Matrix Calculcation`.
 
 ### 4. Getting a Predicted Head
-In order to get a predicted head of a BFM face, you need to have the .obj file of the BFM face for which you want to predict the head. Make sure to have your .obj file named as `Input_Face.obj`. Locate to the directory "combining3Dmorphablemodels/Prediction" and run the following command:
+  - In order to get a predicted head of a BFM face, you need to have the .obj file of the BFM face for which you want to predict the head. Make sure to have your .obj file named as `Input_Face.obj`. Locate to the directory `combining3Dmorphablemodels/Prediction` and run the following command:
 ```
 python Head_Prediction.py
 ```
-This will output a file named `Output_Head.obj` located in the same directory.
+  - In order to generate a random BFM face from BFM model and then predict the head for that randomly generated face, locate to the directory `combining3Dmorphablemodels/Prediction` and run the following command:
+```
+python head_prediction_rand_bfm.py
+```
+
+Both of the codes will output a file named `Output_Head.obj` located in the same directory. `python head_prediction_rand_bfm.py` will also save a file named `Input_Face.obj` which will contain the randomly generated BFM face.
 
 ## Citation
 If this work is useful for your research or if you use this implementation in your academic projects, please cite the following papers:
