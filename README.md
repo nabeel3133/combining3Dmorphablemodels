@@ -33,7 +33,7 @@ In order to run the code, launch MATLAB and follow the steps given below:
 ### 4. Getting a Predicted Head
   - In order to get a predicted head of a BFM face, you need to have the .obj file of the BFM face for which you want to predict the head. Make sure to have your .obj file named as `Input_Face.obj`. Locate to the directory `combining3Dmorphablemodels/Prediction` and run the following command:
 ```
-python Head_Prediction.py
+python head_prediction.py
 ```
   - In order to generate a random BFM face from BFM model and then predict the head for that randomly generated face, locate to the directory `combining3Dmorphablemodels/Prediction` and run the following command:
 ```
