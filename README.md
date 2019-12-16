@@ -1,4 +1,8 @@
 # Combining 3D Morphable Models: A Large scale Face-and-Head Model
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/nabeel3133/combining3Dmorphablemodels)
+
 This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combining 3D Morphable Models: A Large scale Face-and-Head Model. It is implemented only till the Regression Matrix Calculation part.
 
 <p align="center"><img width="50%" height="5%" src="images/main.jpg" /></p>
@@ -8,7 +12,7 @@ This repository provides a MATLAB implementation of the CVPR 2019 Paper - Combin
 
 ## Dependencies
 * [MATLAB](https://www.mathworks.com/downloads/)
-* [Python 3.5](https://www.python.org/downloads/release/python-352/)
+* [Python >= 3.5](https://www.python.org/downloads/release/python-352/)
   - [Numpy](https://pypi.org/project/numpy/) -> ```pip install numpy```
   - [Scipy](https://pypi.org/project/scipy/) -> ```pip install scipy```
 
